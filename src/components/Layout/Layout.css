@@ -1,3 +1,8 @@
+.Main {
+  display: flex;
+}
+
 .Content {
-  margin-top: 26px;
+  margin-left: 390px;
+  margin-top: 45px;
 }

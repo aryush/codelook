@@ -1,9 +1,14 @@
-.SideDrawer {
+/* .Aside {
+  position: relative;
+  margin-top: 45px;
+} */
+
+.Aside {
   position: fixed;
-  width: 280px;
+  width: 480px;
   max-width: 70%;
   height: 100%;
-  left: 100px;
+  left: 1210px;
   top: 65px;
   z-index: 200;
   background-color: white;

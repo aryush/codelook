@@ -1,0 +1,27 @@
+/* .Button {
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+} */
+
+.Button {
+  /* flex: 1; */
+  outline: none;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  background: #38ada9;
+  color: #fff;
+  /* margin-left: 0;
+  margin-top: 10px; */
+  text-transform: uppercase;
+  /* font-size: 16px; */
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 12px 80px;
+}
+
+.Button:hover {
+  background: #aaa;
+  color: #aaa;
+}

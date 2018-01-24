@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Aux from '../../hoc/Aux/Aux';
 import ToolBar from '../Navigation/ToolBar/ToolBar';
 import SideDrawer from '../Navigation/SideDrawer/SideDrawer';
+import Aside from '../Aside/Aside';
 import classes from './Layout.css';
 
 class Layout extends Component {
@@ -10,11 +11,13 @@ class Layout extends Component {
     return (
       <Aux>
         <ToolBar />
-        <SideDrawer />
-        <main className={classes.Content}>
-          {this.props.children}
-        </main>
-        {/* <div>Aside</div> */}
+        <div className={classes.Main}>
+          <SideDrawer />
+          <main className={classes.Content}>
+            {this.props.children}
+          </main>
+          <Aside className={classes.Aside}/>
+        </div>
       </Aux>
     );
   }

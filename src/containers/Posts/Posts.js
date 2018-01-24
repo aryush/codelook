@@ -5,6 +5,10 @@ import Post from './Post/Post';
 
 class Posts extends Component {
 
+  state = {
+
+  }
+
   render() {
     return (
       <Aux>

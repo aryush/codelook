@@ -8,6 +8,7 @@ const toolBar = (props) => (
     <div className={classes.Logo}>
       Code<span>Look</span>
     </div>
+    <input type="text" placeholder="Search" />
     <nav>
       <ToolBarList />
     </nav>

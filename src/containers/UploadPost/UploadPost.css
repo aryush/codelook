@@ -1,0 +1,23 @@
+.Content {
+  display: flex;
+  flex-direction: column;
+}
+
+.Content input {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border-style: none;
+  padding: 36px;
+  outline: 0;
+  font-family: inherit;
+  font-size: 0.95em;
+  border-bottom: 2px solid #eee;
+}
+
+
+.ButtonContainer {
+  /* width: 20%; */
+  /* display: flex; */
+  margin-left: 480px;
+}

@@ -1,12 +1,18 @@
 .NavigationItem {
   margin: 10px 0;
   box-sizing: border-box;
-  display: block;
+  display: flex;
   width: 100%;
 }
 
+.Icon {
+  width: 30px;
+  color: #38ada9;
+}
+
 .NavigationItem a {
-  color: #8f5c2c;
+  margin-left: 10px;
+  color: #2C2E37;
   text-decoration: none;
   width: 100%;
   box-sizing: border-box;
@@ -16,5 +22,5 @@
 .NavigationItem a:hover,
 .NavigationItem a:active,
 .NavigationItem a.active {
-  color: #40a4c8;
+  color: #38ada9;
 }
