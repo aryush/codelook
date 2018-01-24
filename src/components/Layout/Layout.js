@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import Aux from '../../hoc/Aux/Aux';
+import ToolBar from '../Navigation/ToolBar/ToolBar';
 import SideDrawer from '../Navigation/SideDrawer/SideDrawer';
 import classes from './Layout.css';
 
@@ -8,12 +9,12 @@ class Layout extends Component {
   render() {
     return (
       <Aux>
-        <div>Top NavBar, Top NavBar Slider, Side Drawer, Backdrop</div>
+        <ToolBar />
         <SideDrawer />
         <main className={classes.Content}>
           {this.props.children}
         </main>
-        <div>Aside</div>
+        {/* <div>Aside</div> */}
       </Aux>
     );
   }

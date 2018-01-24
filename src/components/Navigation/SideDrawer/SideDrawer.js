@@ -7,7 +7,7 @@ const sideDrawer = (props) => {
   return (
     <div className={classes.SideDrawer}>
       <nav>
-        <NavigationItems />
+        <NavigationItems direction="column"/>
       </nav>
     </div>
   )
